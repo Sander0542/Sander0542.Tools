@@ -1,8 +1,35 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{748440B7-9940-4E32-82C0-1B1A5B58DF58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sander0542.Tools.Cli", "src\Sander0542.Tools.Cli\Sander0542.Tools.Cli.csproj", "{EA73E47C-86BA-4D9E-B2A3-BA903F1B93F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sander0542.Tools.Common", "src\Sander0542.Tools.Common\Sander0542.Tools.Common.csproj", "{80306A4C-575B-4D2E-94A5-F2748EE31C60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sander0542.Tools.Templates", "src\Sander0542.Tools.Templates\Sander0542.Tools.Templates.csproj", "{4F3BFE65-44CE-41CB-93EA-2BF6231A04D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA73E47C-86BA-4D9E-B2A3-BA903F1B93F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA73E47C-86BA-4D9E-B2A3-BA903F1B93F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA73E47C-86BA-4D9E-B2A3-BA903F1B93F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA73E47C-86BA-4D9E-B2A3-BA903F1B93F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80306A4C-575B-4D2E-94A5-F2748EE31C60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80306A4C-575B-4D2E-94A5-F2748EE31C60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80306A4C-575B-4D2E-94A5-F2748EE31C60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80306A4C-575B-4D2E-94A5-F2748EE31C60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F3BFE65-44CE-41CB-93EA-2BF6231A04D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F3BFE65-44CE-41CB-93EA-2BF6231A04D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F3BFE65-44CE-41CB-93EA-2BF6231A04D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F3BFE65-44CE-41CB-93EA-2BF6231A04D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EA73E47C-86BA-4D9E-B2A3-BA903F1B93F4} = {748440B7-9940-4E32-82C0-1B1A5B58DF58}
+		{80306A4C-575B-4D2E-94A5-F2748EE31C60} = {748440B7-9940-4E32-82C0-1B1A5B58DF58}
+		{4F3BFE65-44CE-41CB-93EA-2BF6231A04D0} = {748440B7-9940-4E32-82C0-1B1A5B58DF58}
 	EndGlobalSection
 EndGlobal
